@@ -17,10 +17,10 @@ _Note: This option will only work for Mac & Linux, unless you have PuTTY install
 2. Press the _Account_ button
 3. Go to SSH Keys
 4. Scroll down, and press the _Download_ button corresponding to _Default_
-5. Move the .pem file from your downloads to your user account's .ssh folder (in my example I assume that all your 
+5. Move the .pem file from your downloads to your user account's .ssh folder (in my example I assume that all your
 downloads go to your user's download folder)
     ```bash
-    $ mv ~/Downloads/LightsailDefaultPrivateKey-us-west-2.pem ~/.ssh/ 
+    $ mv ~/Downloads/LightsailDefaultPrivateKey-us-west-2.pem ~/.ssh/
     ```
 6. Change the permissions on your private key so that only _you_ are allowed to read from it
     ```bash
@@ -48,7 +48,7 @@ downloads go to your user's download folder)
     $ npm install
     $ npm start
     ```
-5. Open your browser, then paste in your instance's IP with _:3000_ appended to it! (For example, 
+5. Open your browser, then paste in your instance's IP with _:3000_ appended to it! (For example,
 http://34.216.141.44:3000/)
 
 
@@ -56,13 +56,13 @@ http://34.216.141.44:3000/)
 1. Log onto https://apps.twitter.com/ and press _Create New App_
 2. Fill out the form, then press _Create your Twitter application_
 3. Press on the _Keys and Access Tokens_ tab
-4. Scroll down and click _Create my access token_ 
+4. Scroll down and click _Create my access token_
 5. SSH into your instance or use Lightsail's browser-based remote desktop (RDP) client
 6. Clone this workshop's repository (skip this step if you already did it for the last application)
     ```bash
     $ git clone https://github.com/SCUACM/cloud-computing-tutorial.git
     ```
-7. Create a ```keys.json``` file with the keys and access tokens you just created. When finished, save and quit by 
+7. Create a ```keys.json``` file with the keys and access tokens you just created. When finished, save and quit by
 pressing ```esc``` then ```:wq``` then ```enter```
     ```bash
     $ cd ~/cloud-computing-tutorial/python-app
@@ -85,7 +85,7 @@ pressing ```esc``` then ```:wq``` then ```enter```
     ```bash
     $ sudo pip install tweepy
     ```
-9. Once that's finished, you can go ahead and run your ```tweetbot.py```! If you want to change the keyword you're 
+9. Once that's finished, you can go ahead and run your ```tweetbot.py```! If you want to change the keyword you're
 searching for, you can change the ```keywords``` variable inside the python file!
     ```bash
     $ cd ~/cloud-computing-tutorial/python-app
@@ -93,4 +93,7 @@ searching for, you can change the ```keywords``` variable inside the python file
     ```
 
 ## Resources
+- [AWS Introduction to Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/)
 - [Getting Started with Lightsail](https://linuxacademy.com/howtoguides/posts/show/topic/12662-getting-started-with-lightsail-a-simple-vps-solution-from-aws)
+- [Who's Using AWS?](https://www.contino.io/insights/whos-using-aws)
+- [AWS Market Share](https://techcrunch.com/2017/07/28/aws-wont-be-ceding-its-massive-market-share-lead-anytime-soon/)
