@@ -11,7 +11,7 @@ from tweepy.streaming import StreamListener
 # Forked from Joey Phan
 ##################################################
 
-keywords = 'hello'
+keywords = 'hello world'
 output_file = 'data.txt'
 
 
