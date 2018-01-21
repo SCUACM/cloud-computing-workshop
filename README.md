@@ -30,7 +30,7 @@ downloads go to your user's download folder)
 7. SSH into your instance by using the public IP of your instance
     ```bash
     $ cd ~/.ssh
-    $ ssh -i LightsailDefaultPrivateKey-us-west-2.pem bitmani@34.216.141.44
+    $ ssh -i LightsailDefaultPrivateKey-us-west-2.pem bitnami@34.216.141.44
     ```
 
 
@@ -72,7 +72,7 @@ pressing ```esc``` then ```:wq``` then ```enter```
     {
         "consumer_key": "__your key here__",
         "consumer_key_secret": "__your key here__",
-        "access_token": "256240540-__your key here__",
+        "access_token": "__your key here__",
         "access_token_secret": "__your key here__"
     }
     ```
